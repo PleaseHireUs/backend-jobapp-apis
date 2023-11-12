@@ -1,10 +1,10 @@
 from flask import Flask, jsonify, request
 from JobAppData import JobAppData
 from data import JobAppDao
-
-
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Route to insert jobAppData
 @app.route('/addJobApps', methods=['POST'])
