@@ -1,7 +1,6 @@
 from typing import Any
 from pymongo import MongoClient,errors
 from JobAppData import JobAppData
-from bson import json_util
 import sys
 
 class JobAppDao:

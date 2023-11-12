@@ -1,7 +1,6 @@
 from flask import Flask, jsonify, request
 from JobAppData import JobAppData
 from data import JobAppDao
-from bson import json_util
 
 
 
